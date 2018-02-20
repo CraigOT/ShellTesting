@@ -29,6 +29,8 @@ git add .
 
 git commit -m "added new class $2"
 
+git push -u origin master
+
 echo "added new class " $2 " today \\n" >> work.txt
 
 
